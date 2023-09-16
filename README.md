@@ -4,7 +4,11 @@ A Spring MVC Application to Perform CRUD Operations on Employee using Spring Boo
 
 Github OAuth is used for security of this application.
 
-# OAuth Login Page
+# OAuth Login Page - Google
+
+![googleLogin](https://github.com/THEPHD1331/Employee-Directory/assets/126282296/980ba6e3-05ca-40d0-9531-44b68cfea462)
+
+# OAuth Login Page - Github
 
 ![loginWithGithub](https://github.com/THEPHD1331/Employee-Directory/assets/126282296/5b26aa36-ce63-4249-92b8-98fbbb313173)
 
