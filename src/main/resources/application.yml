@@ -18,6 +18,10 @@ spring:
           github:
             clientId: 913dfd5a038329b833c2
             clientSecret: 03f13495bd4202db6a6ade32b7c124c5c2bc7b58
+
+          google:
+            clientId: 1092876035459-fe9kt35svmdf6og1tjvsrb2rsk09bb0e.apps.googleusercontent.com
+            clientSecret: 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
   
 logging:
   level:
