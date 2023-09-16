@@ -1,0 +1,39 @@
+server:
+ port: 9999
+
+spring:
+  datasource:
+   url: jdbc:mysql://localhost:3306/employee_directory
+   username: springstudent
+   password: springstudent
+  jpa:
+   hibernate:
+    ddl-auto: update
+  show-sql: true
+
+#security:
+#  oauth2:
+#    client:
+#      clientId: 913dfd5a038329b833c2
+#      clientSecret: 03f13495bd4202db6a6ade32b7c124c5c2bc7b58
+#      accessTokenUri: https://github.com/login/oauth/access_token
+#      userAuthorizationUri: https://github.com/login/oauth/authorize
+#      clientAuthenticationScheme: form
+#    resource:
+#      user-info-uri: https://api.github.com/user
+#      prefer-token-info: false
+
+
+  security:
+    oauth2:
+     client:
+       registration:
+          github:
+            clientId: 913dfd5a038329b833c2
+            clientSecret: 03f13495bd4202db6a6ade32b7c124c5c2bc7b58
+  
+logging:
+  level:
+    org:
+      springframework:
+        security: TRACE
