@@ -2,14 +2,17 @@ server:
  port: 9999
 
 spring:
-  datasource:
-   url: jdbc:mysql://localhost:3306/employee_directory
-   username: springstudent
-   password: springstudent
-  jpa:
-   hibernate:
-    ddl-auto: update
-  show-sql: true
+#  datasource:
+#   url: jdbc:mysql://localhost:3306/employee_directory
+#   username: springstudent
+#   password: springstudent
+#  jpa:
+#   hibernate:
+#    ddl-auto: update
+#  show-sql: true
+
+  profiles:
+   active: dev
 
   security:
     oauth2:
@@ -28,3 +31,5 @@ logging:
     org:
       springframework:
         security: TRACE
+
+
