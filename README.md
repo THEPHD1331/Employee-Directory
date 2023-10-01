@@ -2,7 +2,7 @@
 
 A Spring MVC Application to Perform CRUD Operations on Employee using Spring Boot and Thymeleaf. 
 
-Github OAuth is used for security of this application.
+Github and Google OAuth is used for security of this application.
 
 # OAuth Login Page - Google
 
